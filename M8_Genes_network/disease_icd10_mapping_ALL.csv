@@ -1,0 +1,638 @@
+disease_id,disease_name,disease_class,icd10_codes,primary_icd10,mapping_method,similarity_score
+222,Osteoporosis,Bone,M82; M81; M80,M82,exact_match,
+306,Epiphyseal dysplasia,Bone,Q77,Q77,exact_match,
+277,Osteopetrosis,Bone,Q78,Q78,exact_match,
+286,Osteogenesis imperfecta,Bone,Q78,Q78,exact_match,
+288,"Achondrogenesis-hypochondrogenesis, type II",Bone,Q77,Q77,exact_match,
+311,OSMED syndrome,Bone,M15,M15,bert_similarity [alternatives: M15(0.567); Q78(0.544); M05(0.524)],0.5669765472412109
+405,"Dentin dysplasia, type II",Bone,K07,K07,bert_similarity [alternatives: K07(0.504)],0.5041211843490601
+406,"Dentinogenesis imperfecta, Shields type",Bone,,,unmapped,
+407,Achondrogenesis Ib,Bone,Q77,Q77,exact_match,
+577,Osseous heteroplasia,Bone,N85,N85,bert_similarity [alternatives: N85(0.531); M15(0.526)],0.5309812426567078
+637,"Apparent mineralocorticoid excess, hypertension due to",Bone,Y54,Y54,bert_similarity [alternatives: Y54(0.715); T50(0.634); R79(0.633)],0.7147549390792847
+743,Bone mineral density variability,Bone,R79,R79,bert_similarity [alternatives: R79(0.504)],0.5039500594139099
+745,"Hyperostosis, endosteal",Bone,M48; M85,M48,variant_match,
+746,Osteoporosis-pseudoglioma syndrome,Bone,M81,M81,bert_similarity [alternatives: M81(0.590); M82(0.550); M80(0.520)],0.5898712277412415
+1148,Arthropathy,Bone,M02; M89; M07; M06; M36; M15; M14; M03; M12; M11,M02,exact_match,
+47,Leukemia,Cancer,C92,C92,bert_similarity [alternatives: C92(0.626); C95(0.620); C93(0.619)],0.6261544823646545
+114,Colon cancer,Cancer,D01,D01,bert_similarity [alternatives: D01(0.684); C26(0.592); Z85(0.519)],0.6844354867935181
+137,Breast cancer,Cancer,S21,S21,bert_similarity [alternatives: S21(0.555); C50(0.545); S20(0.518)],0.5554019212722778
+139,Prostate cancer,Cancer,N51,N51,bert_similarity [alternatives: N51(0.691); D40(0.689); N42(0.603)],0.6911705732345581
+634,Thyroid carcinoma,Cancer,D44,D44,bert_similarity [alternatives: D44(0.689); E35(0.667); C75(0.584)],0.6893670558929443
+117,Gastric cancer,Cancer,Z85,Z85,bert_similarity [alternatives: Z85(0.552); Z80(0.543); Z12(0.522)],0.5521689653396606
+155,Lymphoma,Cancer,B21; C82; C85; C83; C88; C86; C84; C91; C81,B21,exact_match,
+59,Pancreatic cancer,Cancer,C25,C25,bert_similarity [alternatives: C25(0.807); K85(0.631); K51(0.523)],0.8066472411155701
+197,Ovarian cancer,Cancer,E28,E28,bert_similarity [alternatives: E28(0.607); N83(0.576); Q50(0.569)],0.6072629690170288
+224,Hepatic adenoma,Cancer,K74,K74,bert_similarity [alternatives: K74(0.597); C22(0.588); C24(0.581)],0.5971601009368896
+775,Renal cell carcinoma,Cancer,C79,C79,bert_similarity [alternatives: C79(0.696); D30(0.656); D41(0.559)],0.6958942413330078
+200,Melanoma,Cancer,D03; C43,D03,exact_match,
+384,Glioblastoma,Cancer,,,unmapped,
+199,Adenocarcinoma,Cancer,C60,C60,bert_similarity [alternatives: C60(0.536); C18(0.522); C26(0.519)],0.5357167720794678
+203,Wilms tumor,Cancer,,,unmapped,
+237,Myelogenous leukemia,Cancer,C92,C92,bert_similarity [alternatives: C92(0.750); C90(0.650); C95(0.604)],0.7500144839286804
+248,Endometrial carcinoma,Cancer,D07,D07,bert_similarity [alternatives: D07(0.874); N80(0.731); N85(0.676)],0.8739809393882751
+314,Lung cancer,Cancer,C78,C78,bert_similarity [alternatives: C78(0.665); J99(0.583); C34(0.581)],0.6651439070701599
+474,Bladder cancer,Cancer,D09,D09,bert_similarity [alternatives: D09(0.749); C67(0.707); C68(0.639)],0.7494797110557556
+497,Rhabdomyosarcoma,Cancer,,,unmapped,
+790,Meningioma,Cancer,M23,M23,bert_similarity [alternatives: M23(0.544); G03(0.514)],0.5438756942749023
+938,Basal cell carcinoma,Cancer,D04,D04,bert_similarity [alternatives: D04(0.544); C76(0.519); C49(0.504)],0.543700098991394
+968,Esophageal cancer,Cancer,C15,C15,bert_similarity [alternatives: C15(0.574); D13(0.565); K21(0.530)],0.5743926763534546
+113,Adenomas,Cancer,E34,E34,bert_similarity [alternatives: E34(0.552)],0.5520943999290466
+118,Turcot syndrome,Cancer,,,unmapped,
+132,Squamous cell carcinoma,Cancer,,,unmapped,
+201,Nonsmall cell lung cancer,Cancer,C78,C78,bert_similarity [alternatives: C78(0.601); C34(0.509)],0.6010932922363281
+574,Pituitary ACTH-secreting adenoma,Cancer,E24,E24,bert_similarity [alternatives: E24(0.617); E22(0.521)],0.6170883178710938
+742,Lipoma,Cancer,E88; D17,E88,exact_match,
+795,Neurofibromatosis,Cancer,Q85,Q85,exact_match,
+984,Paragangliomas,Cancer,G13,G13,bert_similarity [alternatives: G13(0.537); D33(0.517); C75(0.502)],0.5371850728988647
+985,Pheochromocytoma,Cancer,,,unmapped,
+156,T-cell lymphoblastic leukemia,Cancer,C91,C91,bert_similarity [alternatives: C91(0.692); C95(0.529)],0.6920903921127319
+181,von Hippel-Lindau syndrome,Cancer,D68,D68,bert_similarity [alternatives: D68(0.609)],0.6091853380203247
+191,Cowden disease,Cancer,H06,H06,bert_similarity [alternatives: H06(0.510)],0.5103384256362915
+192,Polyposis,Cancer,K62,K62,bert_similarity [alternatives: K62(0.562); N84(0.546)],0.5622420310974121
+485,Cancer susceptibility,Cancer,,,unmapped,
+691,Gastrointestinal stromal tumor,Cancer,C26,C26,bert_similarity [alternatives: C26(0.590); C13(0.586); Z85(0.524)],0.5902220010757446
+692,Germ cell tumor,Cancer,C60,C60,bert_similarity [alternatives: C60(0.559); C80(0.519)],0.558948278427124
+772,Multiple endocrine neoplasia,Cancer,N85,N85,bert_similarity [alternatives: N85(0.583); D35(0.555); C80(0.540)],0.5828630328178406
+773,Parathyroid adenoma,Cancer,C75,C75,bert_similarity [alternatives: C75(0.796); E21(0.662); G13(0.551)],0.7963651418685913
+784,Cafe-au-lait spots,Cancer,,,unmapped,
+785,Muir-Torre syndrome,Cancer,P27,P27,bert_similarity [alternatives: P27(0.508)],0.5078508257865906
+838,Neuroblastoma,Cancer,Q85,Q85,bert_similarity [alternatives: Q85(0.523); D33(0.515); G21(0.504)],0.5227683782577515
+853,Medullary thyroid carcinoma,Cancer,D44,D44,bert_similarity [alternatives: D44(0.608); C75(0.604); E35(0.568)],0.6077630519866943
+1067,Li-Fraumeni syndrome,Cancer,,,unmapped,
+1070,Osteosarcoma,Cancer,M83,M83,bert_similarity [alternatives: M83(0.530); C41(0.520); M15(0.518)],0.5302371382713318
+1145,Medulloblastoma,Cancer,B47,B47,bert_similarity [alternatives: B47(0.555); C51(0.517)],0.5551750063896179
+112,"Adenoma, periampullary",Cancer,N85,N85,variant_match,
+115,"Desmoid disease, hereditary",Cancer,G60,G60,bert_similarity [alternatives: G60(0.502)],0.5015859007835388
+116,Gardner syndrome,Cancer,,,unmapped,
+198,Papillary serous carcinoma of the peritoneum,Cancer,C48,C48,bert_similarity [alternatives: C48(0.613); D20(0.555); C79(0.504)],0.612666130065918
+225,Non-Hodgkin lymphoma,Cancer,B21; C85,B21,exact_match,
+252,Li Fraumeni syndrome,Cancer,,,unmapped,
+253,Orolaryngeal cancer,Cancer,C04,C04,bert_similarity [alternatives: C04(0.582); D00(0.560); C08(0.555)],0.5818614959716797
+334,Pilomatricoma,Cancer,N04,N04,bert_similarity [alternatives: N04(0.537); N05(0.535); N02(0.526)],0.5369901061058044
+475,Cervical carcinoma,Cancer,N87,N87,bert_similarity [alternatives: N87(0.612); C15(0.592); D26(0.575)],0.6116649508476257
+693,Mast cell leukemia,Cancer,D47,D47,bert_similarity [alternatives: D47(0.677); H70(0.551); H75(0.526)],0.6772876977920532
+701,Stomach cancer,Cancer,Z85,Z85,bert_similarity [alternatives: Z85(0.656); Z12(0.655); Z80(0.633)],0.6557717323303223
+748,Juvenile polyposis/hereditary hemorrhagic telangiectasia syndrome,Cancer,I78,I78,bert_similarity [alternatives: I78(0.793)],0.7929012775421143
+769,Adrenal adenoma,Cancer,D35,D35,bert_similarity [alternatives: D35(0.791); C74(0.701); E25(0.562)],0.790669322013855
+771,Carcinoid tumor of lung,Cancer,C78,C78,bert_similarity [alternatives: C78(0.746); C34(0.641); C39(0.625)],0.7462013959884644
+794,Lynch cancer family syndrome II,Cancer,,,unmapped,
+810,Neurofibrosarcoma,Cancer,Q85,Q85,bert_similarity [alternatives: Q85(0.618); D31(0.504)],0.617841899394989
+833,Neurofibromatosis,Cancer,Q85,Q85,exact_match,
+834,Neurobromatosis-Noonan syndrome,Cancer,Q85,Q85,bert_similarity [alternatives: Q85(0.709)],0.7091031074523926
+835,Watson syndrome,Cancer,M05,M05,bert_similarity [alternatives: M05(0.522)],0.5221990346908569
+836,Schwannomatosis,Cancer,Q85,Q85,bert_similarity [alternatives: Q85(0.567); H15(0.505); G21(0.501)],0.5665459036827087
+882,Dermatobrosarcoma protuberans,Cancer,M33,M33,bert_similarity [alternatives: M33(0.555); L13(0.534); M36(0.531)],0.5545091032981873
+883,Giant-cell fibroblastoma,Cancer,M85,M85,bert_similarity [alternatives: M85(0.538)],0.5383448600769043
+923,Adrenocortical carcinoma,Cancer,C74,C74,bert_similarity [alternatives: C74(0.790); D35(0.749); E34(0.530)],0.7897120714187622
+925,"Pigmented adrenocortical disease, primary isolated",Cancer,D35,D35,bert_similarity [alternatives: D35(0.605); C74(0.546); E25(0.526)],0.6053894758224487
+942,Lhermitte-Duclos syndrome,Cancer,,,unmapped,
+943,Oligodendroglioma,Cancer,D33,D33,bert_similarity [alternatives: D33(0.502)],0.5018242597579956
+956,Retinoblastoma,Cancer,H36,H36,bert_similarity [alternatives: H36(0.535)],0.5347843766212463
+986,"Carcinoid tumors, intestinal",Cancer,C26,C26,bert_similarity [alternatives: C26(0.772); D01(0.709); Z85(0.653)],0.7717713117599487
+987,Merkel cell carcinoma,Cancer,,,unmapped,
+1025,Peutz-Jeghers syndrome,Cancer,,,unmapped,
+1065,Adrenal cortical carcinoma,Cancer,C74,C74,bert_similarity [alternatives: C74(0.807); D35(0.742); E34(0.541)],0.8070856928825378
+1066,Histiocytoma,Cancer,C96,C96,bert_similarity [alternatives: C96(0.513); D75(0.504)],0.5131863355636597
+1068,Multiple malignancy syndrome,Cancer,C90,C90,bert_similarity [alternatives: C90(0.653); C80(0.563); E34(0.553)],0.6528205871582031
+1069,Nasopharyngeal carcinoma,Cancer,C11,C11,bert_similarity [alternatives: C11(0.759)],0.7592566013336182
+1089,"Hemangioblastoma, cerebellar",Cancer,P12,P12,bert_similarity [alternatives: P12(0.537)],0.5372292995452881
+1120,Salivary adenoma,Cancer,K11,K11,bert_similarity [alternatives: K11(0.670); C04(0.571); C08(0.539)],0.6697667241096497
+1121,Uterine leiomyoma,Cancer,D25,D25,bert_similarity [alternatives: D25(0.818); N80(0.630); D39(0.560)],0.8177588582038879
+1132,Oligodontia-colorectal cancer syndrome,Cancer,,,unmapped,
+1152,Mesothelioma,Cancer,C45,C45,exact_match,
+1153,Sezary syndrome,Cancer,M05,M05,bert_similarity [alternatives: M05(0.593)],0.5926534533500671
+54,Cardiomyopathy,Cardiovascular,I25; O90; I42; I43,I25,exact_match,
+65,Hypertension,Cardiovascular,G93; I15; I27; K76; R03; P29; O10,G93,exact_match,
+99,Myocardial infarction,Cardiovascular,I24; I25; I22; Z03; I21; I23,I24,exact_match,
+110,Long QT syndrome,Cardiovascular,,,unmapped,
+37,Coronary artery disease,Cardiovascular,I25; T82,I25,variant_match,
+327,Atrial fibrillation,Cardiovascular,I48,I48,exact_match,
+78,Tetralogy of Fallot,Cardiovascular,Q21,Q21,exact_match,
+79,Preeclampsia,Cardiovascular,O14,O14,bert_similarity [alternatives: O14(0.735); O15(0.718); O10(0.533)],0.7348117232322693
+226,Ventricular tachycardia,Cardiovascular,I47,I47,exact_match,
+328,Atrioventricular block,Cardiovascular,I44,I44,exact_match,
+402,Arrhythmogenic right ventricular dysplasia,Cardiovascular,Q21,Q21,bert_similarity [alternatives: Q21(0.565); I51(0.528)],0.5646659731864929
+100,Stroke,Cardiovascular,I69; Z82; G46; T67,I69,exact_match,
+98,Atherosclerosis,Cardiovascular,I67; I70,I67,exact_match,
+424,Supravalvar aortic stenosis,Cardiovascular,I35,I35,bert_similarity [alternatives: I35(0.758); I06(0.719); Q23(0.659)],0.7576508522033691
+453,Aortic aneurysm,Cardiovascular,I71,I71,exact_match,
+552,Hypoplastic left heart syndrome,Cardiovascular,Q23,Q23,exact_match,
+686,Acquired long QT syndrome,Cardiovascular,,,unmapped,
+841,Coronary spasms,Cardiovascular,R57,R57,bert_similarity [alternatives: R57(0.538); I24(0.529)],0.5383524894714355
+924,"Myxoma, intracardiac",Cardiovascular,I97,I97,bert_similarity [alternatives: I97(0.549); I40(0.517); C16(0.514)],0.5486406087875366
+954,Capillary malformations,Cardiovascular,Q38,Q38,bert_similarity [alternatives: Q38(0.512)],0.5121161937713623
+960,Hyperproreninemia,Cardiovascular,E87,E87,bert_similarity [alternatives: E87(0.524); E25(0.517); E27(0.510)],0.5242608785629272
+977,Brugada syndrome,Cardiovascular,,,unmapped,
+978,Heart block,Cardiovascular,I45; Q24,I45,exact_match,
+979,Sick sinus syndrome,Cardiovascular,I49,I49,exact_match,
+980,"Ventricular brillation, idiopathic",Cardiovascular,Q21,Q21,bert_similarity [alternatives: Q21(0.569); I42(0.537); I51(0.529)],0.5685791969299316
+1034,Noncompaction of left ventricular myocardium,Cardiovascular,,,unmapped,
+1242,Wolff-Parkinson-White syndrome,Cardiovascular,,,unmapped,
+285,Ehlers-Danlos syndrome,Connective tissue disorder,Q79,Q79,exact_match,
+236,Rheumatoid arthritis,Connective tissue disorder,M06; M05; M08,M06,exact_match,
+290,Osteoarthritis,Connective tissue disorder,M13,M13,bert_similarity [alternatives: M13(0.618); M00(0.593); M06(0.570)],0.617973268032074
+165,Cutis laxa,Connective tissue disorder,L57,L57,exact_match,
+287,Marfan syndrome,Connective tissue disorder,Q87,Q87,exact_match,
+408,Atelosteogenesis,Connective tissue disorder,P28,P28,bert_similarity [alternatives: P28(0.595); Q78(0.552)],0.594636857509613
+457,Weill-Marchesani syndrome,Connective tissue disorder,,,unmapped,
+1050,Loeys-Dietz syndrome,Connective tissue disorder,M05,M05,bert_similarity [alternatives: M05(0.547); B48(0.508)],0.5466570854187012
+283,Caffey disease,Connective tissue disorder,F15,F15,bert_similarity [alternatives: F15(0.569)],0.568504273891449
+284,Dissection of cervical arteries,Connective tissue disorder,I67,I67,bert_similarity [alternatives: I67(0.764); I71(0.631); I72(0.605)],0.7644666433334351
+312,Weissenbacher-Zweymuller syndrome,Connective tissue disorder,,,unmapped,
+455,MASS syndrome,Connective tissue disorder,R22; P51; R19; P26,R22,variant_match,
+480,Apert syndrome,Connective tissue disorder,A37,A37,variant_match,
+887,Ossication of the posterior longitudinal spinal ligaments,Connective tissue disorder,M42,M42,bert_similarity [alternatives: M42(0.518); M48(0.501)],0.5179645419120789
+909,Nevo syndrome,Connective tissue disorder,N05,N05,bert_similarity [alternatives: N05(0.536); N04(0.531); N00(0.510)],0.5363346338272095
+302,Epidermolysis bullosa,Dermatological,L12; Q81,L12,exact_match,
+414,Ectodermal dysplasia,Dermatological,Q77; Q82,Q77,exact_match,
+146,Ichthyosis,Dermatological,L85; Q80,L85,exact_match,
+401,Keratosis palmoplantaria striata,Dermatological,L57,L57,bert_similarity [alternatives: L57(0.642); L11(0.629); L87(0.608)],0.641714334487915
+101,Ichthyosiform erythroderma,Dermatological,Q80,Q80,exact_match,
+560,Erythrokeratoderma,Dermatological,A26,A26,bert_similarity [alternatives: A26(0.650); L59(0.593); L53(0.581)],0.6500682830810547
+703,Epidermolytic hyperkeratosis,Dermatological,R61,R61,bert_similarity [alternatives: R61(0.549); L72(0.548)],0.5490626692771912
+856,Albinism,Dermatological,E70,E70,exact_match,
+301,EBD,Dermatological,,,unmapped,
+303,"Toenail dystrophy, isolated",Dermatological,L60,L60,exact_match,
+304,Transient bullous of the newborn,Dermatological,P92,P92,bert_similarity [alternatives: P92(0.542); P61(0.538); P54(0.531)],0.5415245294570923
+404,Skin fragility-woolly hair syndrome,Dermatological,Q84,Q84,bert_similarity [alternatives: Q84(0.544)],0.5436403155326843
+558,"Keratoderma, palmoplantar, with deafness",Dermatological,L85,L85,variant_match,
+695,Piebaldism,Dermatological,,,unmapped,
+702,Cyclic ichthyosis with epidermolytic hyperkeratosis,Dermatological,L85,L85,bert_similarity [alternatives: L85(0.720); Q80(0.668); E21(0.507)],0.719689130783081
+704,"Unna-Thost disease, nonepidermolytic",Dermatological,,,unmapped,
+709,"Nevus, epidermal, epidermolytic hyperkeratotic type",Dermatological,L72,L72,bert_similarity [alternatives: L72(0.546); A26(0.501)],0.5463210344314575
+1051,Self-healing collodion baby,Dermatological,,,unmapped,
+1136,Incontinentia pigmenti,Dermatological,Q82,Q82,exact_match,
+1198,Netherton syndrome,Dermatological,,,unmapped,
+1306,Birt-Hogg-Dube syndrome,Dermatological,,,unmapped,
+940,Holoprosencephaly,Developmental,Q04,Q04,exact_match,
+796,Cleft palate,Developmental,Q37; Q35,Q37,exact_match,
+341,Peters anomaly,Developmental,,,unmapped,
+484,Saethre-Chotzen syndrome,Developmental,K83,K83,bert_similarity [alternatives: K83(0.546); M94(0.526); H15(0.514)],0.5455188751220703
+765,Angelman syndrome,Developmental,,,unmapped,
+667,Leprechaunism,Developmental,,,unmapped,
+798,Witkop syndrome,Developmental,D82,D82,bert_similarity [alternatives: D82(0.581); H74(0.537); L85(0.507)],0.5808513164520264
+948,Noonan syndrome,Developmental,J43,J43,bert_similarity [alternatives: J43(0.507)],0.5069495439529419
+55,Deafness,"Ear,Nose,Throat",Z82,Z82,exact_match,
+888,Enlarged vestibular aqueduct,"Ear,Nose,Throat",H83,H83,bert_similarity [alternatives: H83(0.532)],0.5324848294258118
+889,Pendred syndrome,"Ear,Nose,Throat",F66,F66,bert_similarity [alternatives: F66(0.525); M05(0.511); Q10(0.509)],0.524889349937439
+87,Diabetes mellitus,Endocrine,E12; N08; P70; O24; E13; Z13; E14; E11; Z83; E10,E12,exact_match,
+332,Hypothyroidism,Endocrine,E89; E03,E89,exact_match,
+541,MODY,Endocrine,,,unmapped,
+786,Pseudohypoaldosteronism,Endocrine,E26,E26,bert_similarity [alternatives: E26(0.769)],0.7692767977714539
+227,Hyperparathyroidism,Endocrine,E21,E21,exact_match,
+331,Graves disease,Endocrine,E35,E35,bert_similarity [alternatives: E35(0.546); M88(0.524); E06(0.514)],0.5460944771766663
+550,Growth hormone,Endocrine,,,unmapped,
+575,Acromegaly,Endocrine,E22,E22,exact_match,
+1048,Goiter,Endocrine,,,unmapped,
+1053,Thyroid hormone resistance,Endocrine,E35,E35,bert_similarity [alternatives: E35(0.572); E89(0.566)],0.5722443461418152
+136,Androgen insensitivity,Endocrine,E28,E28,bert_similarity [alternatives: E28(0.532); L64(0.523)],0.5319510698318481
+138,Perineal hypospadias,Endocrine,Q54,Q54,bert_similarity [alternatives: Q54(0.712); Q64(0.517)],0.7123425006866455
+218,Thyrotoxic periodic paralysis,Endocrine,G72,G72,exact_match,
+228,Hypocalcemia,Endocrine,E23,E23,bert_similarity [alternatives: E23(0.622); I95(0.597); P71(0.583)],0.6215977668762207
+229,Hypocalciuric hypercalcemia,Endocrine,I95,I95,bert_similarity [alternatives: I95(0.524); E23(0.512); E87(0.502)],0.5237824320793152
+365,Angiotensin I-converting enzyme,Endocrine,,,unmapped,
+434,Estrogen resistance,Endocrine,E28,E28,bert_similarity [alternatives: E28(0.583)],0.5829789042472839
+578,Pseudohypoparathyroidism,Endocrine,E20,E20,exact_match,
+579,Somatotrophinoma,Endocrine,F45,F45,bert_similarity [alternatives: F45(0.684)],0.6837800741195679
+665,Hyperproinsulinemia,Endocrine,D89,D89,bert_similarity [alternatives: D89(0.588); D80(0.543); E88(0.517)],0.5884591341018677
+770,"Angiofibroma, sporadic",Endocrine,I20,I20,bert_similarity [alternatives: I20(0.628); Q85(0.501)],0.6279308795928955
+774,"Prolactinoma, hyperparathyroidism, carcinoid syndrome",Endocrine,E34,E34,exact_match,
+1012,Infundibular hypoplasia and hypopituitarism,Endocrine,E23,E23,exact_match,
+1047,Autoimmune thyroid disease,Endocrine,E06,E06,variant_match,
+1072,Hyperthyroidism,Endocrine,P72,P72,exact_match,
+1073,Total iodide organication defect,Endocrine,,,unmapped,
+1078,Hyperthroidism,Endocrine,E21,E21,bert_similarity [alternatives: E21(0.643); E20(0.553); E26(0.522)],0.6428251266479492
+411,Hirschsprung disease,Gastrointestinal,Q43,Q43,exact_match,
+177,Hypercholanemia,Gastrointestinal,E87,E87,bert_similarity [alternatives: E87(0.693); E78(0.612); D89(0.575)],0.6926335096359253
+669,Pancreatic agenesis,Gastrointestinal,Q45,Q45,bert_similarity [alternatives: Q45(0.779); K85(0.630); C25(0.549)],0.7788170576095581
+961,"Colonic aganglionosis, total, with small bowel involvement",Gastrointestinal,M67,M67,exact_match,
+48,Blood group,Hematological,Z52,Z52,bert_similarity [alternatives: Z52(0.592)],0.5916247963905334
+86,Hemolytic anemia,Hematological,D59,D59,bert_similarity [alternatives: D59(0.627); D53(0.600); Y44(0.584)],0.6267350912094116
+41,Anemia,Hematological,D53,D53,bert_similarity [alternatives: D53(0.676); R43(0.633); D50(0.630)],0.676482081413269
+239,Thrombophilia,Hematological,D68,D68,exact_match,
+448,Factor x deficiency,Hematological,E50,E50,bert_similarity [alternatives: E50(0.509)],0.509247899055481
+109,Spherocytosis,Hematological,D58,D58,exact_match,
+235,Platelet defect/deficiency,Hematological,P61,P61,bert_similarity [alternatives: P61(0.515)],0.5145861506462097
+423,Neutropenia,Hematological,P61,P61,exact_match,
+429,Elliptocytosis,Hematological,D58,D58,exact_match,
+447,Thrombocytopenia,Hematological,D69; P61,D69,exact_match,
+467,Dysfibrinogenemia,Hematological,R30,R30,bert_similarity [alternatives: R30(0.605); R06(0.566)],0.6046217679977417
+446,Hemorrhagic diathesis,Hematological,O72,O72,bert_similarity [alternatives: O72(0.609); T81(0.584); I69(0.569)],0.6094179153442383
+466,Afibrinogenemia,Hematological,I48,I48,bert_similarity [alternatives: I48(0.562)],0.561883807182312
+681,Polycythemia,Hematological,D89,D89,bert_similarity [alternatives: D89(0.530)],0.5302969813346863
+682,Thrombocythemia,Hematological,P61,P61,bert_similarity [alternatives: P61(0.685); I87(0.543); O87(0.523)],0.6847512722015381
+963,Rh-negative blood type,Hematological,Y65,Y65,bert_similarity [alternatives: Y65(0.500)],0.5001062750816345
+129,Sea-blue histiocyte disease,Hematological,,,unmapped,
+316,"Hemosiderosis, systemic, due to aceruloplasminemia",Hematological,J63,J63,exact_match,
+342,Coumarin resistance,Hematological,,,unmapped,
+422,"Hematopoiesis, cyclic",Hematological,,,unmapped,
+486,Hypofibrinogenemia,Hematological,I95,I95,bert_similarity [alternatives: I95(0.558); E23(0.532); D80(0.526)],0.5579012632369995
+535,Dyserythropoietic anemia,Hematological,D53,D53,bert_similarity [alternatives: D53(0.526); A06(0.525); D50(0.524)],0.5262845158576965
+536,Macrothrombocytopenia,Hematological,P61,P61,bert_similarity [alternatives: P61(0.637)],0.6369479894638062
+542,Adult i phenotype,Hematological,,,unmapped,
+606,Hemolytic-uremic syndrome,Hematological,K92,K92,bert_similarity [alternatives: K92(0.553); N02(0.548); D59(0.525)],0.553388237953186
+670,Macrocytic anemia,Hematological,D63,D63,bert_similarity [alternatives: D63(0.550); D57(0.548); B76(0.542)],0.5497573614120483
+680,"Myelofibrosis, idiopathic",Hematological,C94; D47,C94,variant_match,
+817,Epstein syndrome,Hematological,D82,D82,variant_match,
+819,May-Hegglin anomaly,Hematological,,,unmapped,
+820,Sebastian syndrome,Hematological,,,unmapped,
+884,Hypereosinophilic syndrome,Hematological,D47,D47,exact_match,
+962,Rh-mod syndrome,Hematological,P27,P27,bert_similarity [alternatives: P27(0.564); P55(0.513); M05(0.511)],0.5643466711044312
+1020,Pyropoikilocytosis,Hematological,,,unmapped,
+1082,Dystransthyretinemic hyperthyroxinemia,Hematological,E21,E21,bert_similarity [alternatives: E21(0.568); E20(0.555); G71(0.550)],0.5676695108413696
+208,Complementary component deficiency,Immunological,,,unmapped,
+63,Severe combined immunodeciency,Immunological,D81,D81,bert_similarity [alternatives: D81(0.564); D83(0.564); B23(0.556)],0.5641274452209473
+245,Malaria,Immunological,B52; Y41; B50; B53; T37; P37; B51,B52,exact_match,
+661,Atopy,Immunological,,,unmapped,
+778,Bare lymphocyte syndrome,Immunological,D84,D84,bert_similarity [alternatives: D84(0.562); Q82(0.537); I89(0.535)],0.5616814494132996
+119,Autoimmune disease,Immunological,E31; D59; K75; E06,E31,variant_match,
+133,Systemic lupus erythematosus,Immunological,M32,M32,exact_match,
+280,HIV,Immunological,B21; Z20; F02; Z11; Z71; Z83; B23; B20; B22; O98,B21,exact_match,
+953,Omenn syndrome,Immunological,I87,I87,bert_similarity [alternatives: I87(0.513)],0.5131779909133911
+154,Ataxia-telangiectasia,Immunological,R27,R27,bert_similarity [alternatives: R27(0.735); G11(0.680); I78(0.651)],0.7350305318832397
+209,Combined immunodeficiency,Immunological,D81,D81,exact_match,
+463,Viral infection,Immunological,B34; A60; A88; B08; B20; B00,B34,exact_match,
+1061,Sepsis,Immunological,A40; A42; A02; A22; A41; A32; A26; P36; B37,A40,exact_match,
+62,Adenosine deaminase deficiency,Immunological,,,unmapped,
+249,Listeria monocytogenes,Immunological,A32,A32,bert_similarity [alternatives: A32(0.695)],0.6945134997367859
+366,"SARS, progression of",Immunological,U04,U04,variant_match,
+663,Graft-versus-host disease,Immunological,,,unmapped,
+664,Allergic rhinitis,Immunological,J30,J30,exact_match,
+694,Mastocytosis with associated hematologic disorder,Immunological,Q82,Q82,exact_match,
+792,Myeloperoxidase deficiency,Immunological,D53,D53,bert_similarity [alternatives: D53(0.569); D52(0.501)],0.5686813592910767
+868,Leprosy,Immunological,A30,A30,exact_match,
+1029,Wegener granulomatosis,Immunological,M31,M31,exact_match,
+1094,Wiskott-Aldrich syndrome,Immunological,D82,D82,exact_match,
+1238,IgE levels QTL,Immunological,,,unmapped,
+125,Hypercholesterolemia,Metabolic,E78,E78,bert_similarity [alternatives: E78(0.888); I25(0.513)],0.8883928656578064
+736,Lipodystrophy,Metabolic,E88,E88,exact_match,
+121,Apolipoprotein deficiency,Metabolic,E78,E78,exact_match,
+123,Hypertriglyceridemia,Metabolic,E78,E78,bert_similarity [alternatives: E78(0.573)],0.5732941627502441
+180,Maple syrup urine disease,Metabolic,E71,E71,exact_match,
+880,Pyruvate dehydrogenase deciency,Metabolic,R74,R74,bert_similarity [alternatives: R74(0.512)],0.5117465257644653
+919,Insulin resistance,Metabolic,,,unmapped,
+38,HDL cholesterol level QTL,Metabolic,,,unmapped,
+126,Abetalipoproteinemia,Metabolic,D53,D53,bert_similarity [alternatives: D53(0.537)],0.536961555480957
+128,Hyperlipoproteinemia,Metabolic,E78,E78,bert_similarity [alternatives: E78(0.639); I25(0.556)],0.6392338871955872
+131,Urolithiasise,Metabolic,N81,N81,bert_similarity [alternatives: N81(0.524)],0.523720383644104
+238,Homocystinuria,Metabolic,,,unmapped,
+322,"CPT deficiency, hepatic",Metabolic,K72,K72,bert_similarity [alternatives: K72(0.617); K74(0.548); B19(0.517)],0.6167783737182617
+930,Hyperprolinemia,Metabolic,E87,E87,bert_similarity [alternatives: E87(0.584); D89(0.512); P81(0.502)],0.5840837955474854
+39,Tangier disease,Metabolic,,,unmapped,
+124,Hypoalphalipoproteinemia,Metabolic,I95,I95,bert_similarity [alternatives: I95(0.576)],0.5757423639297485
+127,Hypobetalipoproteinemia,Metabolic,,,unmapped,
+147,Placental steroid sulfatase deciency,Metabolic,,,unmapped,
+184,GRACILE syndrome,Metabolic,G41,G41,bert_similarity [alternatives: G41(0.612); J43(0.561); G56(0.525)],0.6121813058853149
+231,Creatine phosphokinase,Metabolic,,,unmapped,
+317,Hypoceruloplasminemia,Metabolic,I95,I95,bert_similarity [alternatives: I95(0.597); E23(0.595); E16(0.536)],0.5966275930404663
+363,Dopamine beta-hydroxylase deciency,Metabolic,,,unmapped,
+523,Favism,Metabolic,,,unmapped,
+524,G6PD deficiency,Metabolic,D55,D55,exact_match,
+540,Hyperinsulinism,Metabolic,D89,D89,bert_similarity [alternatives: D89(0.582); E87(0.543); D80(0.529)],0.5817813873291016
+585,Glutathione synthetase deciency,Metabolic,,,unmapped,
+605,"Sandho disease, infantile, juvenile, and adult forms",Metabolic,,,unmapped,
+687,Persistent hyperinsulinemic hypoglycemia of infancy,Metabolic,P81,P81,bert_similarity [alternatives: P81(0.603); D80(0.571); P71(0.527)],0.6025501489639282
+897,Myoglobinuria/hemolysis due to PGK deciency,Metabolic,R82,R82,exact_match,
+996,Fanconi-Bickel syndrome,Metabolic,A07,A07,bert_similarity [alternatives: A07(0.520)],0.5199236273765564
+1027,Hypoglycemia,Metabolic,E16,E16,bert_similarity [alternatives: E16(0.688); R68(0.570); E23(0.556)],0.6878202557563782
+1285,3-methylglutaconicaciduria,Metabolic,,,unmapped,
+202,Fanconi anemia,Multiple,,,unmapped,
+822,Usher syndrome,Multiple,,,unmapped,
+186,Mitochondrial complex deciency,Multiple,,,unmapped,
+419,Dejerine-Sottas disease,Multiple,F45,F45,bert_similarity [alternatives: F45(0.542); G23(0.500)],0.5418068170547485
+782,Waardenburg syndrome,Multiple,P27,P27,bert_similarity [alternatives: P27(0.536); D68(0.519); L85(0.502)],0.5355262160301208
+292,Stickler syndrome,Multiple,H15,H15,bert_similarity [alternatives: H15(0.631); I87(0.543); M34(0.540)],0.6311475038528442
+464,Walker-Warburg syndrome,Multiple,J43,J43,bert_similarity [alternatives: J43(0.546); P27(0.500)],0.5460477471351624
+323,Rubenstein-Taybi syndrome,Multiple,,,unmapped,
+417,Waardenburg-Shah syndrome,Multiple,D82,D82,bert_similarity [alternatives: D82(0.531)],0.5309130549430847
+471,Kallmann syndrome,Multiple,Q98,Q98,bert_similarity [alternatives: Q98(0.585); J43(0.524); M05(0.507)],0.5848907232284546
+493,Rieger syndrome,Multiple,M05,M05,bert_similarity [alternatives: M05(0.528); J43(0.507)],0.5277344584465027
+545,Alexander disease,Multiple,,,unmapped,
+559,Vohwinkel syndrome,Multiple,,,unmapped,
+685,Jervell and Lange-Nielsen syndrome,Multiple,,,unmapped,
+793,Roussy-Levy syndrome,Multiple,,,unmapped,
+815,Carney complex,Multiple,,,unmapped,
+77,Alagille syndrome,Multiple,B44,B44,bert_similarity [alternatives: B44(0.538)],0.5377362966537476
+167,Occipital horn syndrome,Multiple,,,unmapped,
+310,Marshall syndrome,Multiple,P27,P27,bert_similarity [alternatives: P27(0.567); H81(0.531); M05(0.504)],0.5668437480926514
+403,Dilated cardiomyopathy with woolly hair and keratoderma,Multiple,I42,I42,exact_match,
+415,Shah-Waardenburg syndrome,Multiple,P27,P27,bert_similarity [alternatives: P27(0.522); D82(0.519)],0.5219513177871704
+416,ABCD syndrome,Multiple,M05,M05,bert_similarity [alternatives: M05(0.502)],0.5018030405044556
+425,Williams-Beuren syndrome,Multiple,,,unmapped,
+456,Shprintzen-Goldberg syndrome,Multiple,,,unmapped,
+468,Aarskog-Scott syndrome,Multiple,P27,P27,bert_similarity [alternatives: P27(0.569); J43(0.558)],0.5692297220230103
+481,Beare-Stevenson cutis gyrata syndrome,Multiple,J43,J43,bert_similarity [alternatives: J43(0.500)],0.5003299713134766
+482,Craniofacial-skeletal-dermatologic dysplasia,Multiple,Q75,Q75,bert_similarity [alternatives: Q75(0.612); C41(0.512)],0.6117900013923645
+555,Bart-Pumphrey syndrome,Multiple,J43,J43,bert_similarity [alternatives: J43(0.535)],0.5350515842437744
+556,Hystrix-like ichthyosis with deafness,Multiple,L85,L85,bert_similarity [alternatives: L85(0.758); Q80(0.593); E20(0.573)],0.7578371167182922
+557,Keratitis-ichthyosis-deafness syndrome,Multiple,L85,L85,bert_similarity [alternatives: L85(0.704); Q80(0.621); L57(0.589)],0.704271674156189
+563,Simpson-Golabi-Behmel syndrome,Multiple,,,unmapped,
+576,McCune-Albright syndrome,Multiple,P27,P27,bert_similarity [alternatives: P27(0.548)],0.5477522015571594
+633,Costello syndrome,Multiple,,,unmapped,
+668,Rabson-Mendenhall syndrome,Multiple,J43,J43,bert_similarity [alternatives: J43(0.554)],0.553878128528595
+716,Laryngoonychocutaneous syndrome,Multiple,J06,J06,bert_similarity [alternatives: J06(0.690); J37(0.644); J04(0.641)],0.6896085739135742
+781,Tietz syndrome,Multiple,M94,M94,variant_match,
+816,Trismus-pseudocomptodactyly syndrome,Multiple,L67,L67,bert_similarity [alternatives: L67(0.506)],0.5064772963523865
+818,Fechtner syndrome,Multiple,J43,J43,bert_similarity [alternatives: J43(0.509); P27(0.509)],0.5094733238220215
+826,Nijmegen breakage syndrome,Multiple,,,unmapped,
+871,Craniofacial-deafness-hand syndrome,Multiple,Q75,Q75,bert_similarity [alternatives: Q75(0.614); M70(0.532); G56(0.529)],0.613511323928833
+912,Neuroectodermal tumors,Multiple,D33,D33,bert_similarity [alternatives: D33(0.563); C74(0.556); Q85(0.549)],0.5626417398452759
+939,Basal cell nevus syndrome,Multiple,H74,H74,bert_similarity [alternatives: H74(0.534); Q85(0.531)],0.5336726903915405
+944,VATER association with hydrocephalus,Multiple,G94,G94,bert_similarity [alternatives: G94(0.606); G91(0.595); Q05(0.511)],0.6059221625328064
+947,Leopard syndrome,Multiple,J43,J43,bert_similarity [alternatives: J43(0.554)],0.5539835095405579
+949,Zlotogora-Ogur syndrome,Multiple,,,unmapped,
+955,Parkes Weber syndrome,Multiple,,,unmapped,
+969,Coffin-Lowry syndrome,Multiple,,,unmapped,
+1016,Yemenite deaf-blind hypopigmentation syndrome,Multiple,H54,H54,bert_similarity [alternatives: H54(0.517); I95(0.502)],0.5165272951126099
+1033,Barth syndrome,Multiple,N75,N75,variant_match,
+1100,Frasier syndrome,Multiple,M05,M05,bert_similarity [alternatives: M05(0.539)],0.5386641025543213
+1102,WAGR syndrome,Multiple,D82,D82,bert_similarity [alternatives: D82(0.587)],0.5865020155906677
+1227,"Craniofacial anomalies, empty sella turcica, corneal endothelial changes",Multiple,H18,H18,bert_similarity [alternatives: H18(0.556); Q75(0.514)],0.5560999512672424
+1232,"Immunodysregulation, polyendocrinopathy, and enteropathy, X-linked",Multiple,,,unmapped,
+1305,Proud syndrome,Multiple,M05,M05,bert_similarity [alternatives: M05(0.621)],0.6211296916007996
+223,Muscular dystrophy,Muscular,G71,G71,exact_match,
+53,Myopathy,Muscular,I25; G13; I42; G72; G73; G71; O90; I43,I25,exact_match,
+140,Spinal muscular atrophy,Muscular,G12,G12,exact_match,
+266,Myasthenic syndrome,Muscular,G73,G73,exact_match,
+671,Myelodysplastic syndrome,Muscular,D46,D46,exact_match,
+272,Myotonia congenita,Muscular,,,unmapped,
+385,Becker muscular dystrophy,Muscular,G71,G71,exact_match,
+426,Emery-Dreifuss muscular dystrophy,Muscular,G71,G71,exact_match,
+814,Central core disease,Muscular,,,unmapped,
+232,Rippling muscle disease,Muscular,G71,G71,bert_similarity [alternatives: G71(0.578); M62(0.506)],0.5779486298561096
+386,Duchenne muscular dystrophy,Muscular,G71,G71,exact_match,
+974,"Cramps, potassium-aggravated",Muscular,,,unmapped,
+976,Paramyotonia congenita,Muscular,,,unmapped,
+1130,Miyoshi myopathy,Muscular,G72,G72,bert_similarity [alternatives: G72(0.582)],0.5820130109786987
+1174,Myotilinopathy,Muscular,B33,B33,bert_similarity [alternatives: B33(0.575); G72(0.571); G90(0.563)],0.5754496455192566
+81,Mental retardation,Neurological,F71; F84; F78; F73; Z81; F70; F79; F72,F71,exact_match,
+390,Charcot-Marie-Tooth disease,Neurological,,,unmapped,
+220,Epilepsy,Neurological,G40; Z82; F80,G40,exact_match,
+213,Spinocereballar ataxia,Neurological,R27,R27,bert_similarity [alternatives: R27(0.742); G11(0.661); R26(0.554)],0.7417025566101074
+30,Alzheimer disease,Neurological,F00; G30,F00,exact_match,
+185,Leigh syndrome,Neurological,,,unmapped,
+364,Parkinson disease,Neurological,F02,F02,exact_match,
+640,Spastic ataxia/paraplegia,Neurological,R27,R27,bert_similarity [alternatives: R27(0.684); G11(0.613); R26(0.604)],0.6844160556793213
+420,Neuropathy,Neurological,G62; G13; G56; G59; G57; G61; G90; G99; G58; G63; G60,G62,exact_match,
+120,Amyloidosis,Neurological,E85; L99; M14,E85,exact_match,
+367,Amyotrophic lateral sclerosis,Neurological,E85,E85,bert_similarity [alternatives: E85(0.517)],0.5169668197631836
+751,Dementia,Neurological,F05; F02; F00; F01,F05,exact_match,
+219,Ataxia,Neurological,G60; R27; G11,G60,exact_match,
+158,Migraine,Neurological,G43,G43,exact_match,
+369,Lissencephaly,Neurological,Q00,Q00,bert_similarity [alternatives: Q00(0.562); Q01(0.517)],0.5621788501739502
+602,Huntington disease,Neurological,F02,F02,exact_match,
+527,Myoclonic epilepsy,Neurological,G40,G40,bert_similarity [alternatives: G40(0.617); Z82(0.589); G41(0.564)],0.6168814897537231
+36,Cerebral amyloid angiopathy,Neurological,I68,I68,exact_match,
+210,Cerebellar ataxia,Neurological,G11,G11,exact_match,
+211,Episodic ataxia,Neurological,R27,R27,bert_similarity [alternatives: R27(0.835); G11(0.743); R26(0.632)],0.8351619243621826
+217,Malignant hyperthermia susceptibility,Neurological,P81,P81,bert_similarity [alternatives: P81(0.634)],0.633646547794342
+307,Intervertebral disc disease,Neurological,M99; M46; G55; S33; S13; S23; M51,M99,variant_match,
+370,Subcortical laminar heterotopia,Neurological,,,unmapped,
+616,Creutzfeldt-Jakob disease,Neurological,A81; F02,A81,exact_match,
+767,Rett syndrome,Neurological,F84,F84,exact_match,
+779,Multiple sclerosis,Neurological,M34,M34,bert_similarity [alternatives: M34(0.650); G37(0.604); H15(0.545)],0.6504857540130615
+157,Alternating hemiplegia of childhood,Neurological,G81,G81,bert_similarity [alternatives: G81(0.619); G83(0.524)],0.6192715167999268
+166,Menkes disease,Neurological,G03,G03,bert_similarity [alternatives: G03(0.536); M23(0.535); G02(0.528)],0.5364945530891418
+188,Memory impairment,Neurological,F44,F44,bert_similarity [alternatives: F44(0.586); F05(0.520)],0.5859929323196411
+212,"Hemiplegic migraine, familial",Neurological,G43,G43,bert_similarity [alternatives: G43(0.641); G44(0.523); G81(0.513)],0.640603244304657
+368,"Lower motor neuron disease, progressive, without sensory symptoms",Neurological,G12,G12,exact_match,
+374,Jensen syndrome,Neurological,J43,J43,bert_similarity [alternatives: J43(0.539)],0.5387359261512756
+375,Mohr-Tranebjaerg syndrome,Neurological,I87,I87,bert_similarity [alternatives: I87(0.537); G56(0.519); M05(0.516)],0.5368219614028931
+376,Meniere disease,Neurological,H81,H81,bert_similarity [alternatives: H81(1.000); H93(0.597); H83(0.594)],1.0
+442,Branchiootic syndrome,Neurological,,,unmapped,
+689,Myokymia with neonatal epilepsy,Neurological,P94,P94,bert_similarity [alternatives: P94(0.547)],0.546977162361145
+752,Pallidopontonigral degeneration,Neurological,,,unmapped,
+753,Supranuclear palsy,Neurological,H49,H49,bert_similarity [alternatives: H49(0.671); H51(0.652); G51(0.639)],0.671419084072113
+754,Tauopathy and respiratory failure,Neurological,J96,J96,bert_similarity [alternatives: J96(0.577)],0.5773220062255859
+766,PPM-X syndrome,Neurological,,,unmapped,
+829,Norrie disease,Neurological,,,unmapped,
+852,Insensitivity to pain,Neurological,R52,R52,bert_similarity [alternatives: R52(0.675)],0.6751497387886047
+911,Pelizaeus-Merzbacher disease,Neurological,,,unmapped,
+928,Gerstmann-Straussler disease,Neurological,,,unmapped,
+929,Prion disease with protracted course,Neurological,,,unmapped,
+935,Pick disease,Neurological,F02,F02,exact_match,
+975,Hyperkalemic periodic paralysis,Neurological,G72,G72,exact_match,
+1003,"Creatine deciency syndrome, X-linked",Neurological,,,unmapped,
+1015,PCWH,Neurological,,,unmapped,
+1080,Amyloid neuropathy,Neurological,E85,E85,bert_similarity [alternatives: E85(0.758); I68(0.758); L99(0.644)],0.7584338188171387
+1221,Silver spastic paraplegia syndrome,Neurological,G82,G82,exact_match,
+1270,Primary lateral sclerosis,Neurological,G37,G37,bert_similarity [alternatives: G37(0.524); M34(0.517)],0.5241289138793945
+1289,Convulsions,Neurological,R56; F44,R56,exact_match,
+1303,Infantile spasm syndrome,Neurological,P94,P94,bert_similarity [alternatives: P94(0.533); Q10(0.506)],0.5327890515327454
+1304,Partington syndrome,Neurological,M05,M05,bert_similarity [alternatives: M05(0.513)],0.5132217407226562
+70,Obesity,Nutritional,E66,E66,exact_match,
+76,"Leanness, inherited",Nutritional,,,unmapped,
+644,Anorexia nervosa,Nutritional,F50; R63,F50,exact_match,
+45,Retinitis pigmentosa,Ophthamological,H36,H36,bert_similarity [alternatives: H36(0.503)],0.5033285617828369
+325,Cataract,Ophthamological,Q12; H59; H28; H26; H25,Q12,exact_match,
+42,Cone dystrophy,Ophthamological,G71,G71,bert_similarity [alternatives: G71(0.684)],0.6836754083633423
+122,Corneal dystrophy,Ophthamological,H16,H16,bert_similarity [alternatives: H16(0.628); H18(0.585); G71(0.571)],0.6275462508201599
+324,Leber congenital amaurosis,Ophthamological,,,unmapped,
+44,Macular dystrophy,Ophthamological,H48,H48,bert_similarity [alternatives: H48(0.556); G71(0.551); H36(0.527)],0.5561115145683289
+215,Night blindness,Ophthamological,H53; E50,H53,exact_match,
+607,Macular degeneration,Ophthamological,H48,H48,bert_similarity [alternatives: H48(0.544); H36(0.526); H54(0.524)],0.5444475412368774
+340,Glaucoma,Ophthamological,H42; Q15; H40,H42,exact_match,
+441,Anterior segment anomalies and cataract,Ophthamological,Q12,Q12,bert_similarity [alternatives: Q12(0.670); H26(0.592); H25(0.591)],0.6702312231063843
+851,Retinal cone dsytrophy,Ophthamological,H48,H48,bert_similarity [alternatives: H48(0.611); H47(0.580); H36(0.548)],0.6111060380935669
+43,Fundus albipunctatus,Ophthamological,M89,M89,bert_similarity [alternatives: M89(0.523)],0.522766649723053
+282,Achromatopsia,Ophthamological,K22,K22,bert_similarity [alternatives: K22(0.522); H53(0.508)],0.5223355889320374
+744,Exudative vitreoretinopathy,Ophthamological,H45,H45,bert_similarity [alternatives: H45(0.548); H36(0.539); H35(0.518)],0.5475757122039795
+46,Stargardt disease,Ophthamological,G23,G23,bert_similarity [alternatives: G23(0.584)],0.5841773748397827
+454,Ectopia,Ophthamological,Q53,Q53,bert_similarity [alternatives: Q53(0.687); B47(0.540)],0.6866898536682129
+491,Iridogoniodysgenesis,Ophthamological,,,unmapped,
+858,Optic atrophy,Ophthamological,H48; H47,H48,exact_match,
+873,"Coloboma, ocular",Ophthamological,Q12; Q13,Q12,variant_match,
+293,Wagner syndrome,Ophthamological,,,unmapped,
+305,Fuchs endothelial corneal dystrophy,Ophthamological,H16,H16,bert_similarity [alternatives: H16(0.543)],0.5428282022476196
+490,Axenfeld anomaly,Ophthamological,,,unmapped,
+492,Iris hypoplasia and glaucoma,Ophthamological,Q15,Q15,bert_similarity [alternatives: Q15(0.620); H40(0.597); H42(0.586)],0.6199749708175659
+828,Coats disease,Ophthamological,,,unmapped,
+872,"Aniridia, type II",Ophthamological,B81,B81,bert_similarity [alternatives: B81(0.525)],0.5251157283782959
+874,Eye anomalies,Ophthamological,H57,H57,bert_similarity [alternatives: H57(0.590); H51(0.570); H03(0.556)],0.5898199081420898
+875,Foveal hypoplasia,Ophthamological,,,unmapped,
+876,Keratitis,Ophthamological,H19; H16,H19,exact_match,
+878,Optic nerve hypoplasia/aplasia,Ophthamological,H47,H47,bert_similarity [alternatives: H47(0.675); S04(0.647); H48(0.581)],0.6753474473953247
+904,Ring dermoid of cornea,Ophthamological,T15,T15,bert_similarity [alternatives: T15(0.580); H18(0.528); H16(0.524)],0.5796220302581787
+958,"Butterfly dystrophy, retinal",Ophthamological,,,unmapped,
+959,"Foveomacular dystrophy, adult-onset, with choroidal neovascularization",Ophthamological,,,unmapped,
+965,Bothnia retinal dystrophy,Ophthamological,,,unmapped,
+966,Newfoundland rod-cone dystrophy,Ophthamological,G71,G71,bert_similarity [alternatives: G71(0.535)],0.5345223546028137
+1091,"Maculopathy, bull's-eye",Ophthamological,H59,H59,bert_similarity [alternatives: H59(0.512)],0.5117897987365723
+1092,Vitelliform macular dystrophy,Ophthamological,H48,H48,bert_similarity [alternatives: H48(0.512)],0.5118367075920105
+1181,Enhanced S-cone syndrome,Ophthamological,J43,J43,bert_similarity [alternatives: J43(0.518); H15(0.513)],0.5184080004692078
+1208,Pigmented paravenous chorioretinal atrophy,Ophthamological,H31,H31,bert_similarity [alternatives: H31(0.569); H30(0.532); H48(0.523)],0.5687445402145386
+1228,Keratoconus,Ophthamological,H18,H18,exact_match,
+130,Schizophrenia,Psychiatric,F20; F23; F06,F20,exact_match,
+570,Autism,Psychiatric,F84,F84,exact_match,
+189,Obsessive-compulsive disorder,Psychiatric,F42,F42,exact_match,
+270,Nicotine addiction,Psychiatric,Z72,Z72,bert_similarity [alternatives: Z72(0.631); F17(0.631); U07(0.534)],0.6311579942703247
+526,Insomnia,Psychiatric,F51; G47,F51,exact_match,
+1245,Asperger syndrome,Psychiatric,F84,F84,exact_match,
+645,Seasonal affective disorder,Psychiatric,F38,F38,bert_similarity [alternatives: F38(0.599)],0.5988044738769531
+1002,Anxiety-related personality traits,Psychiatric,F41,F41,bert_similarity [alternatives: F41(0.547); F60(0.536); R45(0.506)],0.5467251539230347
+164,Renal tubular acidosis,Renal,E87,E87,exact_match,
+80,Renal tubular dysgenesis,Renal,P96,P96,bert_similarity [alternatives: P96(0.606); N18(0.604); N25(0.596)],0.6062496304512024
+216,Hypokalemic periodic paralysis,Renal,G72,G72,exact_match,
+982,Liddle syndrome,Renal,,,unmapped,
+608,Nephropathy-hypertension,Renal,I12,I12,bert_similarity [alternatives: I12(0.662); I13(0.647); N15(0.631)],0.6619758605957031
+1040,"Glomerulocystic kidney disease, hypoplastic",Renal,N04,N04,bert_similarity [alternatives: N04(0.686); N06(0.671); N25(0.662)],0.6864134669303894
+1099,Denys-Drash syndrome,Renal,,,unmapped,
+1101,Mesangial sclerosis,Renal,H15,H15,bert_similarity [alternatives: H15(0.637); M34(0.632); G37(0.557)],0.6374601125717163
+68,Asthma,Respiratory,T48; Z82; Y55; J45,T48,exact_match,
+187,Central hypoventilation syndrome,Respiratory,,,unmapped,
+902,Emphysema,Respiratory,J98; P25; T79; J43,J98,exact_match,
+1307,"Pneumothorax, primary spontaneous",Respiratory,J93; S27; P25,J93,variant_match,
+74,Spondyloepiphyseal dysplasia,Skeletal,Q77,Q77,exact_match,
+470,Jackson-Weiss syndrome,Skeletal,P27,P27,bert_similarity [alternatives: P27(0.518); J43(0.501)],0.517745852470398
+472,Pfeiffer syndrome,Skeletal,,,unmapped,
+476,Crouzon syndrome,Skeletal,Q75,Q75,bert_similarity [alternatives: Q75(0.647); M05(0.560); P27(0.533)],0.6469494700431824
+483,Craniosynostosis,Skeletal,Q75,Q75,exact_match,
+797,Hypodontia,Skeletal,K00,K00,bert_similarity [alternatives: K00(0.762); F30(0.583); H21(0.560)],0.7619072198867798
+799,Parietal foramina,Skeletal,,,unmapped,
+289,Kniest dysplasia,Skeletal,N89,N89,bert_similarity [alternatives: N89(0.623); N90(0.607); N87(0.596)],0.6225467920303345
+291,SMED Strudwick type,Skeletal,,,unmapped,
+313,Pseudoachondroplasia,Skeletal,Q77,Q77,exact_match,
+409,Diastrophic dysplasia,Skeletal,N89,N89,bert_similarity [alternatives: N89(0.634); N90(0.602); N87(0.565)],0.6340634822845459
+473,Achondroplasia,Skeletal,Q77,Q77,exact_match,
+477,Hypochondroplasia,Skeletal,E20,E20,bert_similarity [alternatives: E20(0.550); M42(0.516)],0.5504520535469055
+478,Muenke syndrome,Skeletal,M05,M05,bert_similarity [alternatives: M05(0.535)],0.5349054336547852
+479,"Thanatophoric dysplasia, types I and II",Skeletal,,,unmapped,
+502,Larson syndrome,Skeletal,,,unmapped,
+503,Spondylocarpotarsal synostosis syndrome,Skeletal,G56,G56,bert_similarity [alternatives: G56(0.538); M77(0.509)],0.5380086898803711
+553,Oculodentodigital dysplasia,Skeletal,N87,N87,bert_similarity [alternatives: N87(0.611); N89(0.611); N90(0.602)],0.6114051342010498
+554,Syndactyly,Skeletal,Q70,Q70,exact_match,
+627,Vertical talus,Skeletal,,,unmapped,
+877,Morning glory disc anomaly,Skeletal,,,unmapped,
+879,Oligodontia,Skeletal,O41,O41,bert_similarity [alternatives: O41(0.630); K00(0.535); R60(0.510)],0.6295438408851624
+991,Solitary median maxillary central incisor,Skeletal,,,unmapped,
+69,"Beta-2-adrenoreceptor agonist, reduced response to",Unclassified,,,unmapped,
+134,Aquaporin-1 deficiency,Unclassified,,,unmapped,
+294,"Aneurysm, familial arterial",Unclassified,I25; M85; I67; I71; I28; I72; I79,I25,variant_match,
+380,Benzene toxicity,Unclassified,T52,T52,bert_similarity [alternatives: T52(0.619); T65(0.607); T53(0.594)],0.6188229322433472
+643,Alcohol dependence,Unclassified,F10,F10,exact_match,
+747,van Buchem disease,Unclassified,,,unmapped,
+842,Placental abruption,Unclassified,O45,O45,bert_similarity [alternatives: O45(0.639); O73(0.635); O43(0.634)],0.6391873359680176
+941,Bannayan-Riley-Ruvalcaba syndrome,Unclassified,J43,J43,bert_similarity [alternatives: J43(0.503)],0.5030330419540405
+1081,"Carpal tunnel syndrome, familial",Unclassified,G56,G56,exact_match,
+406,"Dentinogenesis imperfecta, Shields type",Bone,K00,K00,manual_qwen_gemma,
+384,Glioblastoma,Cancer,C71,C71,manual_qwen_gemma,
+203,Wilms tumor,Cancer,C64,C64,manual_qwen_gemma,
+497,Rhabdomyosarcoma,Cancer,C49,C49,manual_qwen_gemma,
+118,Turcot syndrome,Cancer,Q85,Q85,manual_qwen_gemma,
+132,Squamous cell carcinoma,Cancer,C44,C44,manual_qwen_gemma,
+985,Pheochromocytoma,Cancer,C74,C74,manual_qwen_gemma,
+485,Cancer susceptibility,Cancer,Z15,Z15,manual_qwen_gemma,
+784,Cafe-au-lait spots,Cancer,L81,L81,manual_qwen_gemma,
+1067,Li-Fraumeni syndrome,Cancer,Z15,Z15,manual_qwen_gemma,
+116,Gardner syndrome,Cancer,D12,D12,manual_qwen_gemma,
+252,Li Fraumeni syndrome,Cancer,Z15,Z15,manual_qwen_gemma,
+794,Lynch cancer family syndrome II,Cancer,Z15,Z15,manual_qwen_gemma,
+942,Lhermitte-Duclos syndrome,Cancer,,,unmapped,
+987,Merkel cell carcinoma,Cancer,C4A,C4A,manual_qwen_gemma,
+1025,Peutz-Jeghers syndrome,Cancer,Q85,Q85,manual_qwen_gemma,
+1132,Oligodontia-colorectal cancer syndrome,Cancer,Q87,Q87,manual_qwen_gemma,
+110,Long QT syndrome,Cardiovascular,I45,I45,manual_qwen_gemma,
+686,Acquired long QT syndrome,Cardiovascular,I45,I45,manual_qwen_gemma,
+977,Brugada syndrome,Cardiovascular,I49,I49,manual_qwen_gemma,
+1034,Noncompaction of left ventricular myocardium,Cardiovascular,I42,I42,manual_qwen_gemma,
+1242,Wolff-Parkinson-White syndrome,Cardiovascular,I45,I45,manual_qwen_gemma,
+457,Weill-Marchesani syndrome,Connective tissue disorder,Q87,Q87,manual_qwen_gemma,
+312,Weissenbacher-Zweymuller syndrome,Connective tissue disorder,,,unmapped,
+301,EBD,Dermatological,Q81,Q81,manual_qwen_gemma,
+695,Piebaldism,Dermatological,L81,L81,manual_qwen_gemma,
+704,"Unna-Thost disease, nonepidermolytic",Dermatological,Q82,Q82,manual_qwen_gemma,
+1051,Self-healing collodion baby,Dermatological,Q80,Q80,manual_qwen_gemma,
+1198,Netherton syndrome,Dermatological,Q80,Q80,manual_qwen_gemma,
+1306,Birt-Hogg-Dube syndrome,Dermatological,Q87,Q87,manual_qwen_gemma,
+341,Peters anomaly,Developmental,Q13,Q13,manual_qwen_gemma,
+765,Angelman syndrome,Developmental,Q93,Q93,manual_qwen_gemma,
+667,Leprechaunism,Developmental,E34,E34,manual_qwen_gemma,
+541,MODY,Endocrine,E13,E13,manual_qwen_gemma,
+550,Growth hormone,Endocrine,E23,E23,manual_qwen_gemma,
+1048,Goiter,Endocrine,E04,E04,manual_qwen_gemma,
+365,Angiotensin I-converting enzyme,Endocrine,,,unmapped,
+1073,Total iodide organication defect,Endocrine,,,unmapped,
+129,Sea-blue histiocyte disease,Hematological,D76,D76,manual_qwen_gemma,
+342,Coumarin resistance,Hematological,D68,D68,manual_qwen_gemma,
+422,"Hematopoiesis, cyclic",Hematological,D70,D70,manual_qwen_gemma,
+542,Adult i phenotype,Hematological,,,unmapped,
+819,May-Hegglin anomaly,Hematological,,,unmapped,
+820,Sebastian syndrome,Hematological,D69,D69,manual_qwen_gemma,
+1020,Pyropoikilocytosis,Hematological,D58,D58,manual_qwen_gemma,
+208,Complementary component deficiency,Immunological,D84,D84,manual_qwen_gemma,
+661,Atopy,Immunological,L20,L20,manual_qwen_gemma,
+62,Adenosine deaminase deficiency,Immunological,D81,D81,manual_qwen_gemma,
+663,Graft-versus-host disease,Immunological,T86,T86,manual_qwen_gemma,
+1238,IgE levels QTL,Immunological,,,unmapped,
+919,Insulin resistance,Metabolic,E88,E88,manual_qwen_gemma,
+38,HDL cholesterol level QTL,Metabolic,,,unmapped,
+238,Homocystinuria,Metabolic,E72,E72,manual_qwen_gemma,
+39,Tangier disease,Metabolic,E78,E78,manual_qwen_gemma,
+127,Hypobetalipoproteinemia,Metabolic,E78,E78,manual_qwen_gemma,
+147,Placental steroid sulfatase deciency,Metabolic,,,unmapped,
+231,Creatine phosphokinase,Metabolic,,,unmapped,
+363,Dopamine beta-hydroxylase deciency,Metabolic,,,unmapped,
+523,Favism,Metabolic,D55,D55,manual_qwen_gemma,
+585,Glutathione synthetase deciency,Metabolic,,,unmapped,
+605,"Sandho disease, infantile, juvenile, and adult forms",Metabolic,E75,E75,manual_qwen_gemma,
+1285,3-methylglutaconicaciduria,Metabolic,E71,E71,manual_qwen_gemma,
+202,Fanconi anemia,Multiple,D61,D61,manual_qwen_gemma,
+822,Usher syndrome,Multiple,H35,H35,manual_qwen_gemma,
+186,Mitochondrial complex deciency,Multiple,E88,E88,manual_qwen_gemma,
+323,Rubenstein-Taybi syndrome,Multiple,Q87,Q87,manual_qwen_gemma,
+545,Alexander disease,Multiple,G31,G31,manual_qwen_gemma,
+559,Vohwinkel syndrome,Multiple,Q82,Q82,manual_qwen_gemma,
+685,Jervell and Lange-Nielsen syndrome,Multiple,I45,I45,manual_qwen_gemma,
+793,Roussy-Levy syndrome,Multiple,G60,G60,manual_qwen_gemma,
+815,Carney complex,Multiple,D44,D44,manual_qwen_gemma,
+167,Occipital horn syndrome,Multiple,E83,E83,manual_qwen_gemma,
+425,Williams-Beuren syndrome,Multiple,Q93,Q93,manual_qwen_gemma,
+456,Shprintzen-Goldberg syndrome,Multiple,Q87,Q87,manual_qwen_gemma,
+563,Simpson-Golabi-Behmel syndrome,Multiple,Q87,Q87,manual_qwen_gemma,
+633,Costello syndrome,Multiple,Q87,Q87,manual_qwen_gemma,
+826,Nijmegen breakage syndrome,Multiple,,,unmapped,
+949,Zlotogora-Ogur syndrome,Multiple,Q87,Q87,manual_qwen_gemma,
+955,Parkes Weber syndrome,Multiple,Q27,Q27,manual_qwen_gemma,
+969,Coffin-Lowry syndrome,Multiple,Q87,Q87,manual_qwen_gemma,
+1232,"Immunodysregulation, polyendocrinopathy, and enteropathy, X-linked",Multiple,D82,D82,manual_qwen_gemma,
+272,Myotonia congenita,Muscular,G71,G71,manual_qwen_gemma,
+814,Central core disease,Muscular,G71,G71,manual_qwen_gemma,
+974,"Cramps, potassium-aggravated",Muscular,G71,G71,manual_qwen_gemma,
+976,Paramyotonia congenita,Muscular,G71,G71,manual_qwen_gemma,
+390,Charcot-Marie-Tooth disease,Neurological,G60,G60,manual_qwen_gemma,
+185,Leigh syndrome,Neurological,G31,G31,manual_qwen_gemma,
+370,Subcortical laminar heterotopia,Neurological,Q04,Q04,manual_qwen_gemma,
+442,Branchiootic syndrome,Neurological,Q18,Q18,manual_qwen_gemma,
+752,Pallidopontonigral degeneration,Neurological,G23,G23,manual_qwen_gemma,
+766,PPM-X syndrome,Neurological,,,unmapped,
+829,Norrie disease,Neurological,Q15,Q15,manual_qwen_gemma,
+911,Pelizaeus-Merzbacher disease,Neurological,E75,E75,manual_qwen_gemma,
+928,Gerstmann-Straussler disease,Neurological,A81,A81,manual_qwen_gemma,
+929,Prion disease with protracted course,Neurological,A81,A81,manual_qwen_gemma,
+1003,"Creatine deciency syndrome, X-linked",Neurological,,,unmapped,
+1015,PCWH,Neurological,Q87,Q87,manual_qwen_gemma,
+76,"Leanness, inherited",Nutritional,,,unmapped,
+324,Leber congenital amaurosis,Ophthamological,H35,H35,manual_qwen_gemma,
+491,Iridogoniodysgenesis,Ophthamological,Q13,Q13,manual_qwen_gemma,
+293,Wagner syndrome,Ophthamological,H35,H35,manual_qwen_gemma,
+490,Axenfeld anomaly,Ophthamological,Q13,Q13,manual_qwen_gemma,
+828,Coats disease,Ophthamological,H35,H35,manual_qwen_gemma,
+875,Foveal hypoplasia,Ophthamological,Q14,Q14,manual_qwen_gemma,
+958,"Butterfly dystrophy, retinal",Ophthamological,H35,H35,manual_qwen_gemma,
+959,"Foveomacular dystrophy, adult-onset, with choroidal neovascularization",Ophthamological,H35,H35,manual_qwen_gemma,
+965,Bothnia retinal dystrophy,Ophthamological,H35,H35,manual_qwen_gemma,
+982,Liddle syndrome,Renal,I15,I15,manual_qwen_gemma,
+1099,Denys-Drash syndrome,Renal,,,unmapped,
+187,Central hypoventilation syndrome,Respiratory,G47,G47,manual_qwen_gemma,
+472,Pfeiffer syndrome,Skeletal,,,unmapped,
+799,Parietal foramina,Skeletal,Q75,Q75,manual_qwen_gemma,
+291,SMED Strudwick type,Skeletal,Q77,Q77,manual_qwen_gemma,
+479,"Thanatophoric dysplasia, types I and II",Skeletal,Q77,Q77,manual_qwen_gemma,
+502,Larson syndrome,Skeletal,Q74,Q74,manual_qwen_gemma,
+627,Vertical talus,Skeletal,Q66,Q66,manual_qwen_gemma,
+877,Morning glory disc anomaly,Skeletal,Q14,Q14,manual_qwen_gemma,
+991,Solitary median maxillary central incisor,Skeletal,K00,K00,manual_qwen_gemma,
+69,"Beta-2-adrenoreceptor agonist, reduced response to",Unclassified,,,unmapped,
+134,Aquaporin-1 deficiency,Unclassified,,,unmapped,
+747,van Buchem disease,Unclassified,,,unmapped,
