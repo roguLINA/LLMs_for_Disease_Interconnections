@@ -62,3 +62,14 @@ The experiments are in folders:
 
 * **Closed Clinical Data**  
 ![Closed Clinical Data](./matrices_viz/closed_data/spearman_corr.png)
+
+## Graph-based comparison of obtained matrices
+* **MIMIC-IV dataset**  
+![MIMIC-IV](./graph_comparison/mimic/accuracy_mimic_quantiles_025_05_075_09.png)
+![MIMIC-IV](./graph_comparison/mimic/precision_mimic_quantiles_025_05_075_09.png)
+![MIMIC-IV](./graph_comparison/mimic/recall_mimic_quantiles_025_05_075_09.png)
+
+* **Closed Clinical Data**  
+![Closed Clinical Data](./graph_comparison/closed_data/accuracy_closed_data_quantiles_025_05_075_09.png)
+![Closed Clinical Data](./graph_comparison/closed_data/precision_closed_data_quantiles_025_05_075_09.png)
+![Closed Clinical Data](./graph_comparison/closed_data/recall_closed_data_quantiles_025_05_075_09.png)
