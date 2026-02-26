@@ -35,6 +35,8 @@ where $N_{i, j}$ is the number of patients diagnosed with both codes $i$ and $j$
             description: \{\},
         \}\}
 ```
+The prompt is designed to obtain multiple connections per ICD category in a single request, avoiding $O(N^2)$ API calls, which would otherwise exceed three weeks of execution time at prohibitive cost. 
+
 * `M8_Genes_network` includes the code and data provided by the authors of _Goh, Kwang-Il, et al. "The human disease network." Proceedings of the National Academy of Sciences 104.21 (2007): 8685-8690_. The jupyter notebook `paper_2007_graph.ipynb` offers transforming the disease network into graph and mapping disease names into ICD-10 codes.
 
 The experiments are in folders:
@@ -73,3 +75,10 @@ The experiments are in folders:
 ![Closed Clinical Data](./graph_comparison/closed_data/accuracy_closed_data_quantiles_025_05_075_09.png)
 ![Closed Clinical Data](./graph_comparison/closed_data/precision_closed_data_quantiles_025_05_075_09.png)
 ![Closed Clinical Data](./graph_comparison/closed_data/recall_closed_data_quantiles_025_05_075_09.png)
+
+## Graph-based comparison of obtained matrices -- results with additional quantiles
+
+* **Closed Clinical Data**  
+![Closed Clinical Data](./graph_comparison/closed_data/accuracy_closed_data_quantiles_025_035_05_075_08_085_09_095.png)
+![Closed Clinical Data](./graph_comparison/closed_data/precision_closed_data_quantiles_025_035_05_075_08_085_09_095.png)
+![Closed Clinical Data](./graph_comparison/closed_data/recall_closed_data_quantiles_025_035_05_075_08_085_09_095.png)
