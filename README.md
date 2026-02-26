@@ -44,8 +44,8 @@ The experiments are in folders:
 
 ## Spearman correlation between obtained matrices
 
+* **MIMIC-IV dataset**  
 ![MIMIC-IV](./matrices_viz/mimic/spearman_corr.png)
-MIMIC-IV dataset  
 
+* **Closed Clinical Data**  
 ![Closed Clinical Data](./matrices_viz/closed_data/spearman_corr.png)
-Closed Clinical Data  
